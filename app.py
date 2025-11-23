@@ -1,5 +1,5 @@
 print("Welcome to my Python Program!")
-savings = input("How much money do you put in savings each month") #Requests an input from the user, how much money they put in savings per month
+savings = input("How much money do you put in savings each month: ") #Requests an input from the user, how much money they put in savings per month
 try:
     savings = float(savings) #Converts input to a float
 except ValueError:
